@@ -1,0 +1,232 @@
+body{
+    background: #a8c0ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* CARD DE SPOTIFY */
+#container_fundo{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 5em;
+    flex-wrap: wrap;
+    
+}
+#container_fundo .foto_cantor img{
+    margin: 1em;
+    border-radius: 15px;
+
+}
+.main {
+    background-color: white;
+    width: 300px;
+    padding: 1em;
+    padding-bottom: 1.1em;
+    border-radius: 15px;
+    margin: 1em;
+  }
+  
+  .loader {
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    transform: rotate(180deg);
+    justify-content: right;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+  }
+  
+  .loader:hover {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  .currentplaying {
+    display: flex;
+    margin: 1em;
+  }
+  
+  .spotify {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.6em;
+  }
+  
+  .heading {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  .loading {
+    display: flex;
+    margin-top: 1em;
+    margin-left: 0.3em;
+  }
+  
+  .load {
+    width: 2px;
+    height: 33px;
+    background-color: limegreen;
+    animation: 1s move6 infinite;
+    border-radius: 5px;
+    margin: 0.1em;
+  }
+  
+  .load:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .load:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .load:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .play {
+    position: relative;
+    left: 0.35em;
+    height: 1.6em;
+    width: 1.6em;
+    clip-path: polygon(50% 50%, 100% 50%, 75% 6.6%);
+    background-color: black;
+    transform: rotate(-90deg);
+    align-self: center;
+    margin-top: 0.7em;
+    justify-self: center;
+  }
+  
+  .albumcover {
+    position: relative;
+    margin-right: 1em;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(233, 232, 232);
+    align-self: center;
+    border-radius: 5px;
+  }
+  
+  .song {
+    position: relative;
+    transform: rotate(180deg);
+    margin-right: 1em;
+    color: black;
+    align-self: center;
+  }
+  
+  .artist {
+    font-size: 0.6em;
+  }
+  
+  @keyframes move6 {
+    0% {
+      height: 0.2em;
+    }
+  
+    25% {
+      height: 0.7em;
+    }
+  
+    50% {
+      height: 1.5em;
+    }
+  
+    100% {
+      height: 0.2em;
+    }
+  }
+
+  .foto_br{
+    transform: rotate(180deg); 
+    width: 50px;
+    border: 3px solid rgb(253, 244, 244);
+    border-radius: 10px;
+    
+  }
+
+  /* FIM DO CARD */
+
+  h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff; /* Cor laranja (pode ser personalizada) */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 100px 0;
+  }
+  #sobre{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+
+  }
+ 
+  .sobre_texto h2{
+    text-align: center;
+    color: white;
+
+  }
+  .sobre_texto p{
+    text-align: justify;
+    color: white;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .centralizar_aomeio{
+  margin-top: 200px;
+
+  }
+  .img_breno{
+    margin-top: 11em;
+
+    border-radius: 100%;
+  }
+
+
+
+  #contato{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+  }
+ 
+  .contato_texto h2{
+    text-align: center;
+    color: white;
+
+  }
+  .contato p{
+    text-align: justify;
+    color: white;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .centralizar_aomeio{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   
+  }
+  .img_breno1{
+    margin-top: 10em;
+    border-radius: 100%;
+  }
